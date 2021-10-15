@@ -120,7 +120,7 @@ body {
   display: none;
 }
 .header .links:hover ul {
-  display: block;
+  /* display: block; */
   z-index: 1;
 }
 /* رسم السهم */
@@ -145,6 +145,7 @@ body {
 }
 .header .links ul li a:hover {
   padding-left: 26px;
+  color: var(--main-color);
 }
 /* end header */
 /* start landing */
