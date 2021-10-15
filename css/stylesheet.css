@@ -83,9 +83,9 @@ body {
 .header .links {
   position: relative;
 }
-.header .links:hover .icone span:nth-child(2) {
+/* .header .links:hover .icone span:nth-child(2) {
   width: 100%;
-}
+} */
 .header .links .icone {
   width: 35px;
   display: flex;
@@ -119,10 +119,10 @@ body {
   min-width: 200px;
   display: none;
 }
-.header .links:hover ul {
-  /* display: block; */
+/* .header .links:hover ul {
+  display: block;
   z-index: 1;
-}
+} */
 /* رسم السهم */
 .header .links ul::before {
   content: "";
