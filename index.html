@@ -16,20 +16,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet" />
-
-    <script>
-        function openUl() {
-            let displayState = document.querySelector("ul").style.display;
-            if (displayState == 'none') {
-                document.querySelector("ul").style.display = 'block';
-                document.querySelector("#secSpan").style.width = '100%';
-            }
-            else {
-                document.querySelector("ul").style.display = 'none';
-                document.querySelector("#secSpan").style.width = '50%';
-            }
-        }
-    </script>
 </head>
 
 <body>
@@ -37,7 +23,7 @@
     <div class="header">
         <div class="container">
             <img src="images/logo.png" alt="" class="logo" />
-            <div class="links" onclick="openUl()">
+            <div class="links">
                 <span class="icone">
                     <span></span>
                     <span id="secSpan"></span>
@@ -255,6 +241,20 @@
         © 2021 <span>Leon</span> All Right Reserved
     </div>
     <!-- end footer -->
+    
+    <script>
+        document.querySelector(".links").onclick = function() {
+            let displayState = document.querySelector("ul").style.display;
+            if (displayState == 'none') {
+                document.querySelector("ul").style.display = 'block';
+                document.querySelector("#secSpan").style.width = '100%';
+            }
+            else {
+                document.querySelector("ul").style.display = 'none';
+                document.querySelector("#secSpan").style.width = '50%';
+            }
+        }
+    </script>
 </body>
 
 </html>
