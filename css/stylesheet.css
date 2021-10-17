@@ -156,9 +156,9 @@ body {
   background-attachment: fixed;
   height: 100vh;
 }
-@media (max-width: 500px){
-  .landing{
-     background-attachment:unset;
+@media (max-width: 500px) {
+  .landing {
+    background-attachment: unset;
   }
 }
 .landing .intro-text {
@@ -328,7 +328,7 @@ body {
   content: "";
   height: 470px;
   width: 100px;
-  background: linear-gradient(to bottom,#e4e4e4 60%,#5c544d);
+  background: linear-gradient(to bottom, #e4e4e4 60%, #5c544d);
   position: absolute;
   left: -50px;
   top: -50px;
