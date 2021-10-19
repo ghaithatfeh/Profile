@@ -251,6 +251,53 @@
             document.querySelector("ul").style.display = displayState == 'block' ? 'none' : 'none';
             document.querySelector("#secSpan").style.width = displayState == 'block' ? '50%' : '50%';
         }
+
+        // scrollAnimation
+        // window.onscroll = function () {
+        //     let myContainer = document.querySelectorAll(".container");
+        //     for (let i = 0; i < myContainer.length; i++) {
+        //         if (document.documentElement.scrollTop > 80 && document.documentElement.scrollTop < 800)
+        //             myContainer[1].classList.add("slideUp");
+        //         if (document.documentElement.scrollTop > 500 && document.documentElement.scrollTop < 1200)
+        //             myContainer[2].classList.add("slideUp");
+        //         if (document.documentElement.scrollTop > 1200 && document.documentElement.scrollTop < 3600)
+        //             myContainer[3].classList.add("slideUp");
+        //         if (document.documentElement.scrollTop > 1930 && document.documentElement.scrollTop < 2680)
+        //             myContainer[4].classList.add("slideUp");
+        //         if (document.documentElement.scrollTop > 2680 && document.documentElement.scrollTop < 3000)
+        //             myContainer[5].classList.add("slideUp");
+        //         console.log(window.scrollY);
+        //     }
+        // }
+
+        // window.onscroll = function () {
+        //     let myContainers = document.querySelectorAll(".container");
+        //     function scrollanimarion(i, sPoint, bPoint) {
+        //         if (document.documentElement.scrollTop > sPoint && document.documentElement.scrollTop < bPoint)
+        //             myContainers[i + 1].classList.add("slideUp");
+        //     }
+        //     for (let i = 1; i < myContainers.length -1; i++) {
+        //         const y = 600;
+        //         scrollanimarion(i, y * i, y * (i + 1));
+        //         if (i == 1)
+        //             scrollanimarion(0, 80, 600);
+        //     }
+        // }
+        window.onscroll = function () {
+            let myContainers = document.querySelectorAll(".container");
+            function scrollanimarion(i, sPoint, bPoint) {
+                if (document.documentElement.scrollTop > sPoint && document.documentElement.scrollTop < bPoint)
+                    myContainers[i + 1].classList.add("slideUp");
+            }
+            for (let i = 1; i < myContainers.length; i++) {
+                const y = 700;
+                scrollanimarion(i, y * i, y * (i + 1));
+                if (i == 1)
+                    scrollanimarion(0, 80, 600);
+                if (document.documentElement.scrollTop < 80)
+                    myContainers[i].classList.remove("slideUp");
+            }
+        }
     </script>
 </body>
 
