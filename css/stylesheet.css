@@ -11,8 +11,6 @@
   box-sizing: border-box;
 }
 html {
-  /* -webkit-scroll-behavior: smooth;
-  -moz-scroll-behavior: smooth; */
   scroll-behavior: smooth;
 }
 body {
