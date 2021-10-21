@@ -64,7 +64,11 @@ body {
   }
 }
 .loading-animation{
+  margin: 0;
+  padding: 0;
   position: fixed;
+  top: 0;
+  right: 0;
   height: 100vh;
   display: flex;
   justify-content: center;
