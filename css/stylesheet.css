@@ -65,7 +65,7 @@ body {
 }
 .loading-animation {
   height: 100vh;
-  width: 100%;
+  width: 100Vh;
   position: fixed;
   display: flex;
   justify-content: center;
