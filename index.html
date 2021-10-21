@@ -21,7 +21,9 @@
 
 <body>
     <!-- Loading animation -->
-    <div class="loading-animation"></div>
+    <div class="loading-animation">
+        <div></div>
+    </div>
     <!-- Loading animation -->
     <!-- start header -->
     <div class="header" data-aos="fade-down">
@@ -259,7 +261,6 @@
         //loading-animation
         window.addEventListener("load", () => {
             document.querySelector(".loading-animation").style.display = "none";
-            document.body.style.background = "";
         });
         //open minue
         document.querySelector(".links").addEventListener("click", linksClick);
