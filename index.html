@@ -20,6 +20,9 @@
 </head>
 
 <body>
+    <!-- Loading animation -->
+    <div class="loading-animation"></div>
+    <!-- Loading animation -->
     <!-- start header -->
     <div class="header" data-aos="fade-down">
         <div class="container">
@@ -253,6 +256,11 @@
             easing: 'ease-in-out'
         });
 
+        //loading-animation
+        window.addEventListener("load", () => {
+            document.querySelector(".loading-animation").style.display = "none";
+            document.body.style.background = "";
+        });
         //open minue
         document.querySelector(".links").addEventListener("click", linksClick);
         function linksClick() {

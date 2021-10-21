@@ -15,6 +15,7 @@ html {
 }
 body {
   font-family: "Work Sans", sans-serif;
+  background: #333;
 }
 .container {
   padding-left: 15px;
@@ -61,6 +62,26 @@ body {
   }
   .special-heading + p {
     margin-top: -20px;
+  }
+}
+.loading-animation {
+  position: fixed;
+  top:50%;
+  left:50%;
+  box-shadow: 0px 0px 5px 2px #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid #10cab7;
+  border-bottom:  transparent;
+  border-left: 5px solid #10cab7;
+  border-top: transparent;
+  animation: animat 0.7s linear infinite;
+}
+
+@keyframes animat {
+  to {
+      transform: rotateZ(360deg);
   }
 }
 /* end global rules */
