@@ -22,9 +22,14 @@
 <body>
     <!-- Loading animation -->
     <div class="loading-animation">
-        <div></div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
     <!-- Loading animation -->
+
     <!-- start header -->
     <div class="header" data-aos="fade-down">
         <div class="container">
@@ -45,6 +50,7 @@
         </div>
     </div>
     <!-- end header -->
+
     <!-- start landing -->
     <div class="landing">
         <div class="intro-text">
@@ -81,6 +87,7 @@
         </div>
     </div>
     <!-- end features -->
+
     <!-- start services -->
     <div class="services" id="services">
         <div class="container">
@@ -148,6 +155,7 @@
         </div>
     </div>
     <!-- end services -->
+
     <!-- start portfolio -->
     <div class="portfolio" id="portfolio">
         <div class="container">
@@ -180,6 +188,7 @@
         </div>
     </div>
     <!-- end portfolio -->
+
     <!-- start about -->
     <div class="about" id="about">
         <div class="container">
@@ -208,6 +217,7 @@
         </div>
     </div>
     <!-- end about -->
+
     <!-- start contact -->
     <div class="contact" id="contact">
         <div class="container">
@@ -238,18 +248,15 @@
         </div>
     </div>
     <!-- end contact -->
+
     <!-- start footer -->
     <div class="footer">
         © 2021 <span>Ghaith Atfeh</span> All Right Reserved
     </div>
     <!-- end footer -->
 
-
     <!-- /////////////////////////////////////////////secrpt -->
-
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
     <script>
         //animation library
         AOS.init({
@@ -262,6 +269,7 @@
         window.addEventListener("load", () => {
             document.querySelector(".loading-animation").style.display = "none";
         });
+
         //open minue
         document.querySelector(".links").addEventListener("click", linksClick);
         function linksClick() {
@@ -275,23 +283,6 @@
             document.querySelector("ul").style.display = displayState == 'block' ? 'none' : 'none';
             document.querySelector("#secSpan").style.width = displayState == 'block' ? '50%' : '50%';
         }
-
-        // scrollAnimation
-        /*window.onscroll = function () {
-            let myContainers = document.querySelectorAll(".container");
-            function scrollanimarion(i, sPoint, bPoint) {
-                if (document.documentElement.scrollTop > sPoint && document.documentElement.scrollTop < bPoint)
-                    myContainers[i + 1].classList.add("slideUp");
-            }
-            for (let i = 1; i < myContainers.length; i++) {
-                const y = 700;
-                scrollanimarion(i, y * i, y * (i + 1));
-                if (i == 1)
-                    scrollanimarion(0, 80, 600);
-                if (document.documentElement.scrollTop < 80)
-                    myContainers[i].classList.remove("slideUp");
-            }
-        }*/
     </script>
 </body>
 
