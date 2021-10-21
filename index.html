@@ -16,13 +16,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <!-- start header -->
-    <div class="header">
+    <div class="header" data-aos="fade-down">
         <div class="container">
-            <img src="images/logo.svg" alt="" class="logo" />
+            <img src="images/logo.svg" alt="" class="logo"/>
             <div class="links">
                 <span class="icone">
                     <span></span>
@@ -42,15 +43,15 @@
     <!-- start landing -->
     <div class="landing">
         <div class="intro-text">
-            <h1>Hello There</h1>
-            <p>I am Ghaith Atfeh - Super Creative & Minimal Agency Web Template</p>
+            <h1 data-aos="fade-left">Hello There</h1>
+            <p data-aos="fade-right">I am Ghaith Atfeh - Super Creative & Minimal Agency Web Template</p>
         </div>
     </div>
     <!-- end landing -->
     <!-- start features -->
     <div class="features">
         <div class="container">
-            <div class="feat">
+            <div class="feat" data-aos="flip-right">
                 <i class="fas fa-magic fa-3x"></i>
                 <h3>Tell Me Your Idea</h3>
                 <p>
@@ -58,14 +59,14 @@
                     contact me and you would be a part of me mission.
                 </p>
             </div>
-            <div class="feat">
+            <div class="feat" data-aos="flip-up">
                 <i class="fas fa-gem fa-3x"></i>
                 <h3>I Will Do All The Work</h3>
                 <p>
                     All you have to do is give me the beginning of the work and I will give you the end.
                 </p>
             </div>
-            <div class="feat">
+            <div class="feat" data-aos="flip-left">
                 <i class="fas fa-globe-asia fa-3x"></i>
                 <h3>Your Product is Worldwide</h3>
                 <p>
@@ -78,12 +79,12 @@
     <!-- start services -->
     <div class="services" id="services">
         <div class="container">
-            <h2 class="special-heading">Services</h2>
-            <p>Don't be busy, be productive</p>
+            <h2 class="special-heading" data-aos="fade-up">Services</h2>
+            <p data-aos="fade-up" data-aos-delay="300">Don't be busy, be productive</p>
             <div class="services-container">
                 <div class="col">
                     <!-- start service -->
-                    <div class="srv">
+                    <div class="srv" data-aos="fade-up">
                         <i class="fas fa-palette fa-3x"></i>
                         <div class="text">
                             <h3>Graphic Design</h3>
@@ -96,7 +97,7 @@
                     </div>
                     <!-- end service -->
                     <!-- start service -->
-                    <div class="srv">
+                    <div class="srv" data-aos="fade-up">
                         <i class="fab fa-android fa-3x"></i>
                         <!-- <i class="fas fa-gem fa-3x"></i> -->
                         <div class="text">
@@ -111,7 +112,7 @@
                 </div>
                 <div class="col">
                     <!-- start service -->
-                    <div class="srv">
+                    <div class="srv" data-aos="fade-up">
                         <i class="fas fa-vector-square"></i>
                         <div class="text">
                             <h3>Web Design</h3>
@@ -123,7 +124,7 @@
                     </div>
                     <!-- end service -->
                     <!-- start service -->
-                    <div class="srv">
+                    <div class="srv" data-aos="fade-up">
                         <i class="fas fa-pencil-ruler"></i>
                         <div class="text">
                             <h3>Web Development</h3>
@@ -135,7 +136,7 @@
                     </div>
                     <!-- end service -->
                 </div>
-                <div class="image">
+                <div class="image" data-aos="fade-right">
                     <img src="images/services.jpg" alt="" />
                 </div>
             </div>
@@ -145,10 +146,10 @@
     <!-- start portfolio -->
     <div class="portfolio" id="portfolio">
         <div class="container">
-            <h2 class="special-heading">Portfolio</h2>
-            <p>If you do it right, it will last forever.</p>
-            <div class="portfolio-container">
-                <a class="project" href="https://ghaithatfeh.github.io/portfolio/" target="_blank">
+            <h2 class="special-heading" data-aos="fade-up">Portfolio</h2>
+            <p data-aos="fade-up" data-aos-delay="300">If you do it right, it will last forever.</p>
+            <div class="portfolio-container" data-aos="zoom-in">
+                <a class="project" href="https://ghaithatfeh.github.io/portfolio/" target="_blank" >
                     <img src="images/portfolio2.jpg" alt="project image" />
                     <h3>Portfolio</h3>
                     <p>
@@ -177,20 +178,20 @@
     <!-- start about -->
     <div class="about" id="about">
         <div class="container">
-            <div class="special-heading">About</div>
-            <p>Less is more work</p>
+            <div class="special-heading" data-aos="fade-up">About</div>
+            <p data-aos="fade-up" data-aos-delay="300">Less is more work</p>
             <div class="about-container">
-                <div class="image">
+                <div class="image" data-aos="zoom-out">
                     <img src="images/about.jpg" alt="" />
                 </div>
                 <div class="text">
-                    <p>
+                    <p data-aos="fade-up">
                         An ambitious person with high organizational abilities, I am seriously looking for an
                         entrepreneurial job to gain hands-on experience in the IT field, specializing in software
                         development and web development.
                     </p>
-                    <hr />
-                    <p>
+                    <hr data-aos="fade-up"/>
+                    <p data-aos="fade-up">
                         I recently graduated from Damascus University in the field of information technology, and I
                         gained good experience while working on college projects, Now I'm reviewing what I learned at
                         collage (HTML, CSS, JAVA Script) and delve into the field of Frontend Developer.
@@ -205,9 +206,9 @@
     <!-- start contact -->
     <div class="contact" id="contact">
         <div class="container">
-            <div class="special-heading">Contact</div>
-            <p>We are born to create</p>
-            <div class="contact-container">
+            <div class="special-heading" data-aos="fade-up">Contact</div>
+            <p data-aos="fade-up" data-aos-delay="300">We are born to create</p>
+            <div class="contact-container" data-aos="zoom-in">
                 <div class="main">
                     <img src="images/person-blue-shirt.png" alt="." />
                     <div>
@@ -238,7 +239,21 @@
     </div>
     <!-- end footer -->
 
+
+    <!-- /////////////////////////////////////////////secrpt -->
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
+        //animation library
+        AOS.init({
+            delay: 40,
+            duration: 1200,
+            easing: 'ease-in-out'
+        });
+
+        //open minue
         document.querySelector(".links").addEventListener("click", linksClick);
         function linksClick() {
             let displayState = document.querySelector("ul").style.display;
@@ -253,37 +268,7 @@
         }
 
         // scrollAnimation
-        // window.onscroll = function () {
-        //     let myContainer = document.querySelectorAll(".container");
-        //     for (let i = 0; i < myContainer.length; i++) {
-        //         if (document.documentElement.scrollTop > 80 && document.documentElement.scrollTop < 800)
-        //             myContainer[1].classList.add("slideUp");
-        //         if (document.documentElement.scrollTop > 500 && document.documentElement.scrollTop < 1200)
-        //             myContainer[2].classList.add("slideUp");
-        //         if (document.documentElement.scrollTop > 1200 && document.documentElement.scrollTop < 3600)
-        //             myContainer[3].classList.add("slideUp");
-        //         if (document.documentElement.scrollTop > 1930 && document.documentElement.scrollTop < 2680)
-        //             myContainer[4].classList.add("slideUp");
-        //         if (document.documentElement.scrollTop > 2680 && document.documentElement.scrollTop < 3000)
-        //             myContainer[5].classList.add("slideUp");
-        //         console.log(window.scrollY);
-        //     }
-        // }
-
-        // window.onscroll = function () {
-        //     let myContainers = document.querySelectorAll(".container");
-        //     function scrollanimarion(i, sPoint, bPoint) {
-        //         if (document.documentElement.scrollTop > sPoint && document.documentElement.scrollTop < bPoint)
-        //             myContainers[i + 1].classList.add("slideUp");
-        //     }
-        //     for (let i = 1; i < myContainers.length -1; i++) {
-        //         const y = 600;
-        //         scrollanimarion(i, y * i, y * (i + 1));
-        //         if (i == 1)
-        //             scrollanimarion(0, 80, 600);
-        //     }
-        // }
-        window.onscroll = function () {
+        /*window.onscroll = function () {
             let myContainers = document.querySelectorAll(".container");
             function scrollanimarion(i, sPoint, bPoint) {
                 if (document.documentElement.scrollTop > sPoint && document.documentElement.scrollTop < bPoint)
@@ -297,7 +282,7 @@
                 if (document.documentElement.scrollTop < 80)
                     myContainers[i].classList.remove("slideUp");
             }
-        }
+        }*/
     </script>
 </body>
 
