@@ -48,6 +48,7 @@
                 </ul>
             </div>
         </div>
+        <span class="progress-bar"></span>
     </div>
     <!-- end header -->
 
@@ -264,6 +265,13 @@
             duration: 1200,
             easing: 'ease-in-out'
         });
+
+        // progress-bar
+        window.onscroll = () => {
+            let maxY = document.documentElement.scrollHeight - document.documentElement.clientHeight; // to know how much is max length of full doc.
+            let x = document.querySelector('.progress-bar');
+            x.style.width = `${(this.scrollY * 100)/ maxY}%`;
+        }
 
         //loading-animation
         window.addEventListener("load", () => {
