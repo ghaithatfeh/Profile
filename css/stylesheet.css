@@ -136,6 +136,7 @@ body {
 }
 .header .links {
   position: relative;
+  cursor: pointer;
 }
 /* .header .links:hover .icone span:nth-child(2) {
   width: 100%;
@@ -180,6 +181,9 @@ body {
   z-index: 1;
 } */
 /* رسم السهم */
+.header .links ul{
+  box-shadow: 0 0 8px #ddd;
+}
 .header .links ul::before {
   content: "";
   border-style: solid;
@@ -188,6 +192,7 @@ body {
   position: absolute;
   right: 10px;
   top: -20px;
+  box-shadow: 0 0 8px #ddd;
 }
 .header .links ul li a {
   display: block;
