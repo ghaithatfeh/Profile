@@ -101,20 +101,26 @@ body {
     transform: translateY(-40px);
   }
 }
-
+h3 {
+  margin-top: 1.7rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
 /* Scroll Bar */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 12px;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: #f6f6f6;
   border-radius: 30px;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: rgb(16 202 183 / 40%);
   border-radius: 30px;
 }
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background-color: var(--main-color);
 }
 /* end global rules */
@@ -181,7 +187,7 @@ body {
   z-index: 1;
 } */
 /* رسم السهم */
-.header .links ul{
+.header .links ul {
   box-shadow: 0 0 8px #ddd;
 }
 .header .links ul::before {
@@ -209,7 +215,7 @@ body {
 }
 
 /* progress-bar */
-.progress-bar{
+.progress-bar {
   background-color: var(--main-color);
   height: 3px;
   position: absolute;
@@ -377,7 +383,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
-.project > img{
+.project > img {
   object-fit: cover;
 }
 /* end portfolio */
