@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghaith | Profile</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <!-- render -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        .contact a>p {
+            margin: 0;
+        }
+
+        .main::before {
+            height: 39px;
+            width: 41px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Loading animation -->
+    <div class="loading-animation">
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Loading animation -->
+
+    <!-- start header -->
+    <div class="header" data-aos="fade-down">
+        <div class="container">
+            <a href="#top" style="height:30px"><img src="images/logo.svg" alt="" class="logo" /></a>
+            <div class="links">
+                <span class="icone">
+                    <span></span>
+                    <span id="secSpan"></span>
+                    <span></span>
+                </span>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protofolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="progress-bar"></span>
+    </div>
+    <!-- end header -->
+
+    <!-- start landing -->
+    <div class="landing">
+        <div class="intro-text">
+            <h1 data-aos="fade-left">Hello There</h1>
+            <p data-aos="fade-right">I am Ghaith Atfeh - Full Stack Web Developer & Software Engineer</p>
+        </div>
+    </div>
+    <!-- end landing -->
+    <!-- start features -->
+    <div class="features">
+        <div class="container">
+            <div class="feat" data-aos="fade-right">
+                <i class="fas fa-magic fa-3x"></i>
+                <h3>Tell Me Your Idea</h3>
+                <p>
+                    I Would Love To Value Your Ideas !<br>
+                    contact me and you would be a part of me mission.
+                </p>
+            </div>
+            <div class="feat" data-aos="fade-up">
+                <i class="fas fa-gem fa-3x"></i>
+                <h3>I Will Do All The Work</h3>
+                <p>
+                    All you have to do is give me the beginning of the work and I will give you the end.
+                </p>
+            </div>
+            <div class="feat" data-aos="fade-left">
+                <i class="fas fa-globe-asia fa-3x"></i>
+                <h3>Your Product is Worldwide</h3>
+                <p>
+                    Go global with your new product and grow for the better.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end features -->
+
+    <!-- start services -->
+    <div class="services" id="services">
+        <div class="container">
+            <h2 class="special-heading" data-aos="fade-up">Services</h2>
+            <p data-aos="fade-up" data-aos-delay="300">Don't be busy, be productive</p>
+            <div class="services-container">
+                <div class="col">
+                    <!-- start service -->
+                    <div class="srv" data-aos="fade-right">
+                        <i class="fas fa-palette fa-3x"></i>
+                        <div class="text">
+                            <h3>Graphic Design</h3>
+                            <p>
+                                Graphic design is the process of visual communication and
+                                problem-solving using one or more of typography, photography
+                                and illustration.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end service -->
+                    <!-- start service -->
+                    <div class="srv" data-aos="fade-left">
+                        <i class="fab fa-android fa-3x"></i>
+                        <!-- <i class="fas fa-gem fa-3x"></i> -->
+                        <div class="text">
+                            <h3>Android Development</h3>
+                            <p>
+                                process by which applications are created for devices running the Android operating
+                                system.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end service -->
+                </div>
+                <div class="col">
+                    <!-- start service -->
+                    <div class="srv" data-aos="fade-right">
+                        <i class="fas fa-vector-square"></i>
+                        <div class="text">
+                            <h3>Web Design</h3>
+                            <p>
+                                Web design encompasses many different skills and disciplines
+                                in the production and maintenance of websites.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end service -->
+                    <!-- start service -->
+                    <div class="srv" data-aos="fade-left">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <div class="text">
+                            <h3>Web Development</h3>
+                            <p>
+                                Web development is a broad term for the work involved in
+                                developing a web site for the Internet or an intranet.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end service -->
+                </div>
+                <div class="image" data-aos="zoom-out">
+                    <img src="images/services.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services -->
+
+    <!-- start portfolio -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="special-heading" data-aos="fade-up">Portfolio</h2>
+            <p data-aos="fade-up" data-aos-delay="300">If you do it right, it will last forever.</p>
+            <div class="portfolio-container" data-aos="zoom-in">
+                <a class="project" href="https://wasset-demo.ghaith-atfeh.tech/" target="_blank">
+                    <img src="images/wasset.png" alt="project image" />
+                    <h3 style="font-family: 'Almarai', sans-serif;">منصة وسيط للأعمال المستقلة</h3>
+                    <p>
+                        Al Waseet platform is an Arab platform that helps business owners to access the best
+                        professional freelance workers to contract with them to do business and projects online.
+                    </p>
+                </a>
+                <a class="project" href="https://iqch.org" target="_blank">
+                    <img src="images/portfolio4.jpg" alt="project image" style="object-position: right;" />
+                    <h3 style="font-family: 'Almarai', sans-serif;">جمعية الصداقة العراقية الصينية</h3>
+                    <p>
+                        Website with full control over the content through the dashboard, I developed the front end of
+                        it and participated in
+                        the development of the back end..
+                    </p>
+                </a>
+                <a class="project" href="https://ghaithatfeh.github.io/crisper/" target="_blink">
+                    <img src="images/crisper.jpg" alt="project image" />
+                    <h3>Crisper Restaurant</h3>
+                    <p>
+                        I developed this website for restaurant in KSA, Technologies used: HTML, CSS, Bootstrap 5,
+                        JavaScript and Jquery in Frontend, PHP and mySQL in Backend.
+                    </p>
+                </a>
+                <a class="project" href="https://money-management.ghaith-atfeh.tech/" target="_blank">
+                    <img src="images/money-management.png" alt="project image" />
+                    <h3 style="font-family: 'Almarai', sans-serif;">Money Management System</h3>
+                    <p>
+                        Light accounting web application for recording financial transactions (incoming - outcoming) and
+                        giving chart reports, supports both English and Arabic
+                        languages, developed using Yii2 Framework.
+                    </p>
+                </a>
+                <a class="project" href="http://mmb-demo.ghaith-atfeh.tech/">
+                    <img src="images/portfolio3.jpg" alt="project image" />
+                    <h3>Morsbach Maschinenbau GmbH</h3>
+                    <p>
+                        Website for a mechanical company, full control of the content through the dashboard, displaying
+                        products and send orders, I designed and developed for the frontend and backend.
+                    </p>
+                </a>
+                <a class="project" href="https://ghaithatfeh.github.io/kasper-template/" target="_blank">
+                    <img src="images/kasper-templet.jpg" alt="project image" />
+                    <h3>Kasper Template</h3>
+                    <p>
+                        HTML & CSS Template for company specialized in software and design services.
+                    </p>
+                </a>
+                <a class="project" href="https://ghaithatfeh.github.io/galaxy/" target="_blink">
+                    <img src="images/galaxy.jpg" alt="project image" />
+                    <h3>Galaxy Chocolate Template</h3>
+                    <p>
+                        Template for Chocolate Factory, multi pages and responsive design, using
+                        HTML/CSS/Bootstrap 3/JavaScript.
+                    </p>
+                </a>
+                <!-- <a class="project" href="#" data-bs-toggle="modal" data-bs-target="#img-modal">
+                    <img src="images/certification3.png" alt="project image" />
+                    <h3 style="line-height: 1.5;">Certificate Of Appreciation</h3>
+                    <p>
+                        Certificate of appreciation from the Alawael company I work for as a front-end developer
+                    </p>
+                </a>
+                <a class="project" href="https://www.freecodecamp.org/certification/ghaith-atfeh/responsive-web-design"
+                    target="_blink">
+                    <img src="images/certification1.jpg" alt="project image" />
+                    <h3 style="line-height: 1.5;">Responsive Web Design Certification</h3>
+                    <p>
+                        Developer Certification, representing approximately 300 hours of coursework.
+                    </p>
+                </a>
+                <a class="project"
+                    href="https://www.freecodecamp.org/certification/ghaith-atfeh/javascript-algorithms-and-data-structures"
+                    target="_blink">
+                    <img src="images/certification2.jpg" alt="project image" />
+                    <h3 style="line-height: 1.5;">JavaScript Algorithms and Data Structures</h3>
+                    <p>
+                        Developer Certification, representing approximately 300 hours of coursework.
+                    </p>
+                </a> -->
+            </div>
+        </div>
+    </div>
+    <!-- end portfolio -->
+
+    <!-- start modal -->
+    <div id="img-modal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <img src="images/certification3.png" alt="project image" />
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- start about -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="special-heading" data-aos="fade-up">About</div>
+            <p data-aos="fade-up" data-aos-delay="300">Less is more work</p>
+            <div class="about-container">
+                <div class="image" data-aos="zoom-out">
+                    <img src="images/about.jpg" alt="" />
+                </div>
+                <div class="text">
+                    <p data-aos="fade-up">
+                        An ambitious person with high organizational abilities, I am seriously looking for an
+                        entrepreneurial job to gain hands-on experience in the IT field, specializing in software
+                        development and web development.
+                    </p>
+                    <hr data-aos="fade-left" />
+                    <p data-aos="fade-up">
+                        I graduated from Damascus University in the field of information technology, and I
+                        gained good experience while working on college projects, Now I work as Full Stack Developer
+                        for tow companies, I have good experance in frontend technologies (HTML, CSS, JavaScript,
+                        Jquery, Bootstrap, AJAX, ReactJS) and in backend technologies (PHP, mySql, Yii2, Laravel).
+                        My next goals are to study a Masters in Web Technologies (MWT) at the Syrian Virtual University
+                        (SVU) and develop myself in this field.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="special-heading" data-aos="fade-up">Contact</div>
+            <p data-aos="fade-up" data-aos-delay="300">We are born to create</p>
+            <div class="contact-container" data-aos="zoom-in">
+                <div class="main">
+                    <img src="images/person-blue-shirt.png" alt="." />
+                    <div>
+                        <h1>Ghaith Atfeh</h1>
+                        <p>Full Stack Developer</p>
+                    </div>
+                    <hr />
+                    <a href="https://www.facebook.com/ghaith.atfeh0" target="blank" style="padding: 10px;">
+                        <p>Facebook</p>
+                        <p>ghaith.atfeh0</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ghaith-atfeh/" target="blank" style="padding: 10px;">
+                        <p>Linkedin</p>
+                        <p>ghaith-atfeh</p>
+                    </a>
+                    <a href="mailto:a89ghaith@gmail.com" style="padding: 10px;">
+                        <p>Gmail</p>
+                        <p>a89ghaith</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <div class="footer">
+        © 2021 <span>Ghaith Atfeh</span> All Right Reserved
+    </div>
+    <!-- end footer -->
+
+    <!-- /////////////////////////////////////////////secrpt -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        //animation library
+        AOS.init({
+            delay: 40,
+            duration: 1200,
+            easing: 'ease-in-out'
+        });
+
+        // progress-bar
+        window.onscroll = () => {
+            let maxY = document.documentElement.scrollHeight - document.documentElement.clientHeight; // to know how much is max length of full doc.
+            let x = document.querySelector('.progress-bar');
+            x.style.width = `${(this.scrollY * 100) / maxY}%`;
+        }
+
+        //loading-animation
+        window.addEventListener("load", () => {
+            document.querySelector(".loading-animation").style.display = "none";
+            document.documentElement.style.overflowY = "inherit";
+        });
+
+        //open minue
+        document.querySelector(".links").addEventListener("click", linksClick);
+        function linksClick() {
+            let displayState = document.querySelector("ul").style.display;
+            document.querySelector("ul").style.display = displayState == 'none' ? 'block' : 'none';
+            document.querySelector("#secSpan").style.width = displayState == 'none' ? '100%' : '50%';
+        }
+        document.body.addEventListener("click", bodyClick, true);
+        function bodyClick() {
+            let displayState = document.querySelector("ul").style.display;
+            document.querySelector("ul").style.display = displayState == 'block' ? 'none' : 'none';
+            document.querySelector("#secSpan").style.width = displayState == 'block' ? '50%' : '50%';
+        }
+    </script>
+</body>
+
+</html>
