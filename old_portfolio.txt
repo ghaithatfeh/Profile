@@ -1,0 +1,139 @@
+<div class="portfolio-container" data-aos="zoom-in">
+	<a class="project" href="https://wasset-demo.ghaithatfeh.tech/" target="_blank">
+		<img src="images/wasset.png" alt="project image" />
+		<h3 style="font-family: 'Almarai', sans-serif">منصة وسيط للأعمال المستقلة</h3>
+		<p>
+			Al Waseet is an Arab platform that helps business owners to access the best professional freelance workers to
+			contract with them to do business and projects online.
+		</p>
+	</a>
+	<a class="project" href="https://youbeeu.com.au/feed/all/" target="_blank">
+		<img src="images/portfolio6.png" alt="project image" />
+		<h3>YouBeeU</h3>
+		<p>
+			A social media platform. The platform is available on the web, iPhone, and Android devices. My main task was
+			to build the APIs for everything related to feeds, using Laravel framework.
+		</p>
+	</a>
+	<a class="project" href="https://historyrevealed.ghaithatfeh.tech/" target="_blink">
+		<img
+			src="images/ancestry.png"
+			alt="project image"
+			style="height: 285px; object-fit: contain; background-color: #f6f6f6"
+		/>
+		<h3>Ancestry App</h3>
+		<p>
+			A web application for mobiles and tablets built for an art event in Canada to view paintings and scan them to
+			convert them to 3D objects. I built it with Vue.js and deployed it to AWS.
+		</p>
+	</a>
+	<a class="project" href="https://ghaithatfeh.github.io/crisper/" target="_blink">
+		<img src="images/crisper.jpg" alt="project image" />
+		<h3>Crisper Restaurant</h3>
+		<p>
+			I developed this website for restaurant in KSA, Technologies used: HTML, CSS, Bootstrap 5, JavaScript and
+			Jquery in Frontend, PHP and mySQL in Backend.
+		</p>
+	</a>
+	<a class="project" href="https://iqch.org" target="_blank">
+		<img src="images/portfolio4.jpg" alt="project image" style="object-position: right" />
+		<h3 style="font-family: 'Almarai', sans-serif">جمعية الصداقة العراقية الصينية</h3>
+		<p>
+			Website with full control over the content through the dashboard, I developed the front end of it and
+			participated in the development of the back end.
+		</p>
+	</a>
+	<a class="project" href="https://money-management.ghaithatfeh.tech/" target="_blank">
+		<img src="images/money-management.png" alt="project image" />
+		<h3>Money Management System</h3>
+		<p>
+			Light accounting web application for recording financial transactions (incoming - outcoming) and giving chart
+			reports, supports both English and Arabic languages, developed using Yii2 Framework.
+		</p>
+	</a>
+	<a class="project" href="http://mmb-demo.ghaithatfeh.tech/" target="_blank">
+		<img src="images/portfolio3.jpg" alt="project image" />
+		<h3>Morsbach Maschinenbau GmbH</h3>
+		<p>
+			Website for a mechanical company, full control of the content through the dashboard, displaying products and
+			send orders, I designed and developed for the frontend and backend.
+		</p>
+	</a>
+	<a class="project" href="https://offers-demo.ghaithatfeh.tech/" target="_blank">
+		<img src="images/portfolio5.jpeg" alt="project image" />
+		<h3>Offers Dashboard</h3>
+		<p>
+			This project involved creating a dashboard to manage and provide a RESTful API for a mobile application. It
+			supports multiple roles and languages. developed using Laravel Framework.
+		</p>
+	</a>
+	<a class="project" href="https://homelydesign.ca/" target="_blank">
+		<img src="images/portfolio7.png" alt="project image" />
+		<h3>Homely Design</h3>
+		<p>
+			Website and dashboard for company offers online landscape design services. full control of the content
+			through the dashboard. Built with Laravel.
+		</p>
+	</a>
+	<a class="project" href="https://github.com/ghaithatfeh/news_articles" target="_blank">
+		<img src="images/portfolio8.png" alt="project image" />
+		<h3>News Articles</h3>
+		<p>
+			Web application allows users to create news articles with styleable text and GIFs. I built it with Laravel,
+			Node.js, and Vue.js.
+		</p>
+	</a>
+	<a class="project" href="https://cms.artgatevr.com/" target="_blank">
+		<img src="images/portfolio9.png" alt="project image" />
+		<h3>ArtGate</h3>
+		<p>
+			CMS and RESTful API for VR meta verse art gallery. managing arts media, e-payment. Built with Laravel,
+			Repository Service Pattern, Stripe for payment, AWS EC2 for deployment.
+		</p>
+	</a>
+	<a class="project" href="https://abbamedix.com/" target="_blank">
+		<img src="images/portfolio10.png" alt="project image" />
+		<h3>Abba Medix</h3>
+		<p>
+			An e-commerce platform in Canada, built with Shopify, Node.js, Strapi, PostgreSQL, and hosted on AWS. I
+			implemented numerous improvements in both the frontend and backend of this project.
+		</p>
+	</a>
+	<!-- <a class="project" href="https://ghaithatfeh.github.io/kasper-template/" target="_blank">
+        <img src="images/kasper-templet.jpg" alt="project image" />
+        <h3>Kasper Template</h3>
+        <p>HTML & CSS Template for company specialized in software and design services.</p>
+    </a>
+    <a class="project" href="https://ghaithatfeh.github.io/galaxy/" target="_blink">
+        <img src="images/galaxy.jpg" alt="project image" />
+        <h3>Galaxy Chocolate Template</h3>
+        <p>
+            Template for Chocolate Factory, multi pages and responsive design, using HTML, CSS, Bootstrap 3,
+            JavaScript, and Jquery.
+        </p>
+    </a> 
+    <a class="project" href="#" data-bs-toggle="modal" data-bs-target="#img-modal">
+        <img src="images/certification3.png" alt="project image" />
+        <h3 style="line-height: 1.5;">Certificate Of Appreciation</h3>
+        <p>
+            Certificate of appreciation from the Alawael company I work for as a front-end developer
+        </p>
+    </a>
+    <a class="project" href="https://www.freecodecamp.org/certification/ghaith-atfeh/responsive-web-design"
+        target="_blink">
+        <img src="images/certification1.jpg" alt="project image" />
+        <h3 style="line-height: 1.5;">Responsive Web Design Certification</h3>
+        <p>
+            Developer Certification, representing approximately 300 hours of coursework.
+        </p>
+    </a>
+    <a class="project"
+        href="https://www.freecodecamp.org/certification/ghaith-atfeh/javascript-algorithms-and-data-structures"
+        target="_blink">
+        <img src="images/certification2.jpg" alt="project image" />
+        <h3 style="line-height: 1.5;">JavaScript Algorithms and Data Structures</h3>
+        <p>
+            Developer Certification, representing approximately 300 hours of coursework.
+        </p> 
+    </a> -->
+</div>
